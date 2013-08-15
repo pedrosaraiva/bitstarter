@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - 0.8
+deploy:
+  provider: heroku
+  api_key: dbd325e8ec1dc5f464ffd64f0a854df09cc1760c
+  app:
+    staging: pedrosaraiva-bitstarter-s-mooc 
+  
+  
+  
